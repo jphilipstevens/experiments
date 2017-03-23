@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "strictNullChecks": false,
+        "target": "es6",
+        "module": "commonjs",
+        "noImplicitAny": false,
+        "removeComments": false,
+        "preserveConstEnums": true,
+        "outDir": "dist",
+        "sourceMap": true,
+        "allowJs": true,
+        "types": [
+            "node"
+        ],
+        "typeRoots": [
+            "node_modules/@types"
+        ]
+    },
+     "include": [
+            "src/**/*.ts"
+        ],
+        "exclude": [
+            "node_modules"
+        ]
+}
