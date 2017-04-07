@@ -1,0 +1,18 @@
+{
+  "name": "typescript-monet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "repl": "ts-node"
+  },
+  "dependencies": {
+    "monet": "^0.8.10"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.12",
+    "ts-node": "^3.0.2",
+    "typescript": "^2.2.2"
+  }
+}
